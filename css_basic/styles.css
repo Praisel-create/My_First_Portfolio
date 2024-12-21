@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+header ul {
+    width: 100%;  /* Use 100% for width to make it responsive */
+}
+
 body {
     display:flex;
     flex-direction:column;
+    max-width: 100%;
 }
 
 
