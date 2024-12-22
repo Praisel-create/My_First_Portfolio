@@ -1,22 +1,26 @@
-* {
-    box-sizing: border-box;
+header {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+
 }
 
 header ul {
     width: 100%;  /* Use 100% for width to make it responsive */
 }
 
-header, footer {
-    color:floralwhite;
-    background-image: url(https://wallpaperaccess.com/full/9339922.jpg);
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    border: 2px solid black;
 }
 
 li {
     color:floralwhite;
-}
-
-header, main, footer {
-    border: 2px solid black;
 }
 
 body {
@@ -30,6 +34,8 @@ main {
     display: flex;
     flex: auto;
     flex-direction: row;
+    border: 2px solid black;
+
 }
 
 article {
