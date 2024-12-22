@@ -7,10 +7,6 @@ header {
 
 }
 
-header ul {
-    width: 100%;  /* Use 100% for width to make it responsive */
-}
-
 * {
     box-sizing: border-box;
 }
@@ -47,4 +43,25 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+/* Style the list inside the header */
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each list item */
+header ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px; /* Make the logo bigger */
+    font-weight: bold;
+    color: #4CAF50; /* Give it a distinct color */
 }
